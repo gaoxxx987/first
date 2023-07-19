@@ -5,7 +5,7 @@ from pyth.plugins.rtf15.reader import Rtf15Reader
 from pyth.plugins.xhtml.writer import XHTMLWriter
 
 
-if len(sys.argv) > 1:
+if len(sys.argv) > 1:11
     filename = sys.argv[1]
 else:
     filename = os.path.normpath(os.path.join(
